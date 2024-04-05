@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink: hsl(275, 100%, 97%);
+  --grayish-purple: hsl(292, 16%, 49%);
+  --dark-purple: hsl(292, 42%, 14%);
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: var(--pink);
+}
+
+#main {
+  background: url("./images/background-pattern-desktop.svg");
+  height: 25vh;
+}
