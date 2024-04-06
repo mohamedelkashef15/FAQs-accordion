@@ -19,7 +19,7 @@ body {
 
 /* Utility Classes */
 h1,
-h3 {
+h2 {
   color: var(--dark-purple);
 }
 
@@ -70,7 +70,7 @@ h3 {
   cursor: pointer;
 }
 
-#faq .card .item h3 {
+#faq .card .item h2 {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 25px;
