@@ -17,7 +17,69 @@ body {
   background-color: var(--pink);
 }
 
-#main {
+/* Utility Classes */
+.hidden {
+  display: none;
+}
+
+h1,
+h3 {
+  color: var(--dark-purple);
+}
+
+#faq {
   background: url("./images/background-pattern-desktop.svg");
-  height: 25vh;
+  height: 30vh;
+}
+
+#faq .container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#faq .card {
+  background-color: #fff;
+  width: 600px;
+  padding: 2.5rem;
+  border-radius: 15px;
+}
+
+#faq .card h1 {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+}
+
+#faq .card h1 img {
+  margin-right: 15px;
+  width: 35px;
+}
+
+#faq .card .item {
+  margin-top: 2.5rem;
+}
+
+#faq .card .item .item-question {
+  position: relative;
+}
+
+#faq .card .item .item-question img {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  width: 25px;
+}
+
+#faq .card .item h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+#faq .card .item p {
+  color: var(--grayish-purple);
+  line-height: 1.4;
 }
