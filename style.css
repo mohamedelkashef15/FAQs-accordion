@@ -18,10 +18,6 @@ body {
 }
 
 /* Utility Classes */
-.hidden {
-  display: none;
-}
-
 h1,
 h3 {
   color: var(--dark-purple);
@@ -71,6 +67,7 @@ h3 {
   top: -5px;
   right: 0;
   width: 25px;
+  cursor: pointer;
 }
 
 #faq .card .item h3 {
@@ -82,4 +79,15 @@ h3 {
 #faq .card .item p {
   color: var(--grayish-purple);
   line-height: 1.4;
+  display: none;
+}
+
+#faq .card .item .icon-minus {
+  display: none;
+}
+
+/* Case of active mode */
+#faq .card .item.active p,
+#faq .card .item.active .icon-minus {
+  display: block;
 }
